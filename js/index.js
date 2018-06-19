@@ -11,3 +11,13 @@ var ar = ['a', 'b', 'c', 'd', 'e']
 for (let i = 0; i < ar.length; i++) {
   console.log(ar[i])
 }
+
+var obj = {
+  "prop1": "h1",
+  "prop3": "h3",
+  "prop10": "ok"
+}
+
+for (var prop in obj) {
+  console.log(obj[prop])
+}
