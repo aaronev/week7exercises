@@ -19,5 +19,10 @@ var obj = {
 }
 
 for (var prop in obj) {
+
   console.log(obj[prop])
 }
+
+document.getElementById('pracH2').textContent=obj.prop1
+document.getElementById('pracH3').textContent=obj.prop3
+document.getElementById('pracH5').textContent=obj.prop10
