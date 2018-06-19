@@ -26,3 +26,25 @@ for (var prop in obj) {
 document.getElementById('pracH2').textContent=obj.prop1
 document.getElementById('pracH3').textContent=obj.prop3
 document.getElementById('pracH5').textContent=obj.prop10
+
+var ar2 = [
+  {
+    "name": "asdf"
+    "age": 12,
+    "dude": "dude"
+  },
+  {
+    "name": "yup"
+    "age": 145,
+    "dude": "dude"
+  },
+    {
+    "name": "John"
+    "age": 32,
+    "dude": "na"
+  }
+]
+
+for (var i = 0; i < ar2.length; i++) {
+  console.log(ar2[i].name, ar2[i].age, ar2[i].dude)
+}
