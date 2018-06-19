@@ -29,17 +29,17 @@ document.getElementById('pracH5').textContent=obj.prop10
 
 var ar2 = [
   {
-    "name": "asdf"
+    "name": "asdf",
     "age": 12,
     "dude": "dude"
   },
   {
-    "name": "yup"
+    "name": "yup",
     "age": 145,
     "dude": "dude"
   },
     {
-    "name": "John"
+    "name": "John",
     "age": 32,
     "dude": "na"
   }
@@ -48,3 +48,5 @@ var ar2 = [
 for (var i = 0; i < ar2.length; i++) {
   console.log(ar2[i].name, ar2[i].age, ar2[i].dude)
 }
+
+document.body.style.color="red"
